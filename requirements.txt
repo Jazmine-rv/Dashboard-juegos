@@ -1,4 +1,6 @@
-plotly==5.15.0
-beautifulsoup4==4.12.2
-lxml==4.9.3;sys_platform !='linux'
-
+streamlit>=1.38.0
+pandas>=2.2.2
+plotly>=5.24.1
+numpy>=1.26.4
+requests>=2.32.3
+beautifulsoup4>=4.12.3
