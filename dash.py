@@ -18,7 +18,7 @@ def scrape_genshin_characters():
     Basado en el código original proporcionado
     """
     try:
-        url = "https://genshin-impact.fandom.com/wiki/Characters/List"
+        url = "https://genshin-impact.fandom.com/wiki/Character/List"
         
         response = requests.get(url)
         soup = BeautifulSoup(response.text, "lxml")
